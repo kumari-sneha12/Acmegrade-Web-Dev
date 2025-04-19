@@ -53,25 +53,25 @@
     
 }
 .product-image1{
-    background-image: url('./image1.png');
+    background-image: url('./assests/image1.png');
     height: 200px;
     background-size: cover;
 
 }
 .product-image2{
-    background-image: url('./image2.png');
+    background-image: url('./assests/image2.png');
     height: 200px;
     background-size: cover;
 
 }
 .product-image3{
-    background-image: url('./image3.png');
+    background-image: url('./assests/image3.png');
     height: 200px;
     background-size: cover;
 
 }
 .product-image4{
-    background-image: url('./image4.png');
+    background-image: url('./assests/image4.png');
     height: 200px;
     background-size: cover;
 
