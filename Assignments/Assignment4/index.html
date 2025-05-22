@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Movie Collection</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <form class="add-movie-form">
+      <div class="main">
+        <input type="text" placeholder="Movie-Name" id="name" />
+        <input type="text" placeholder="Movie-Lead" id="lead" />
+        <input type="text" placeholder="Movie-Collection" id="collection" />
+        <button id="addmovie">Add Movie</button>
+      </div>
+      <div class="error-box">Error</div>
+    </form>
+
+    <div id="movieContainer"></div>
+
+     <div class="overlay" id="overlay"></div>
+    <div class="pop-up-container">
+      <section class="close-btn-container">
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          width="34"
+          height="34"
+          viewBox="0 0 24 24"
+        >
+          <g fill="none">
+            <circle
+              cx="12"
+              cy="12"
+              r="9"
+              fill="currentColor"
+              fill-opacity="0.25"
+            />
+            <path
+              stroke="currentColor"
+              stroke-linecap="round"
+              stroke-width="1.2"
+              d="m9 9l6 6m0-6l-6 6"
+            />
+          </g>
+        </svg>
+      </section>
+      <form action="" class="edit-form">
+        <h2 class="form-title">Edit Movie</h2>
+        <h3></h3>
+        <section class="form-body">
+          <input
+            type="text"
+            placeholder="Name of movie"
+            class="edit-movie-name"
+          />
+          <input type="text" placeholder="Lead Role" class="edit-lead-role" />
+          <input
+            type="text"
+            placeholder="Total Collections"
+            class="edit-total-collections"
+          />
+        </section>
+        <section>
+          <p class="edit-from-error">Error :</p>
+        </section>
+        <div class="pop-up-btn-container">
+          <button class="edit-form-submit">Submit</button>
+          <button class="edit-form-cancel">Cancel</button>
+        </div>
+      </form>
+    </div>
+    <script src="index.js"></script>
+  </body>
+</html>

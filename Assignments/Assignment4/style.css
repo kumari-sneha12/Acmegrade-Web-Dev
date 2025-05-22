@@ -1,0 +1,230 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    user-select:none;
+}
+body {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  background: linear-gradient(135deg, #121214, #080808);
+  color: #fff;
+}
+
+/* cards section */
+
+#movieContainer {
+  border: 1px groove rgb(166, 7, 177);
+  margin:40px 5px;
+  border-radius:10px;
+}
+
+.movieParent {
+  background: linear-gradient(200deg, rgb(161, 6, 161), rgb(16, 16, 16));
+  width: 220px;
+  margin: 20px;
+  border: 2px solid rgb(212, 11, 212);
+  border-radius:10px;
+  display: inline-block;
+  /* box-shadow: 0px 0px 5px white; */
+  transition: transform 0.3s ease;
+}
+.movieParent:hover{
+    background:linear-gradient(270deg, rgb(161, 6, 161), rgb(16, 16, 16));
+    transform:scale(1.01);
+}
+
+.movieParent .head{
+    height:100px;
+    display:none;
+}
+.movieParent .body{
+    padding:20px;
+}
+
+.name{
+    font-size:2rem;
+    font-weight:700;
+    height:100px;
+    width:100%;
+}
+.lead{
+    font-size:1.2rem;
+    color:#ead085;
+    margin-block-end:10px;
+}
+
+.collection{
+    font-size:1rem;
+    font-weight:900;
+    color: #9e91ee;
+}
+
+.movieParent .action{
+    width: 100% !important;
+    margin-block:20px;
+    display: flex;
+    gap:10px;
+    padding-inline:20px;
+}
+
+.movieParent .action button{
+    width:50%;
+    padding:8px;
+    border:1.5px solid white;
+    border-radius: 8px;
+    background-color:transparent;
+    color:#fff;
+    cursor: pointer;
+    transition:.2s linear;
+    font-size:0.9rem;
+}
+.movieParent .action button:hover{
+    background-color: #BC2ACF;
+}
+
+/* form section */
+.add-movie-form {
+     border:1px solid rgb(198, 194, 194);
+    border-radius:8px;
+    padding:40px;
+    margin:10px 5px;
+}
+.add-movie-form .main{
+
+    display: flex;
+    gap:20px;
+}
+
+.error-box{
+    margin-block:10px;
+    padding:10px;
+    text-align: center;
+    color: red;
+    display: none;
+}
+/* pop-up */
+
+.pop-up-container {
+  border: 2px solid #a624b7;
+  border-radius: 10px;
+  background-color: #1f0128;
+  position: fixed;
+  inset: 150px;
+  z-index: 1010;
+  padding: 20px;
+  width: 40%;
+  height: fit-content;
+  margin-inline: auto;
+  display: none;
+}
+
+/* Hidden by default */
+.overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: none;
+  justify-content: center;
+  align-items: center;
+  backdrop-filter: blur(5px);
+  background-color: rgba(0, 0, 0, 0.3);
+  z-index: 1000;
+}
+
+/* Show overlay */
+.overlay.active {
+  display: flex;
+}
+
+.close-btn-container {
+  position: absolute;
+  right: 10px;
+  top: 10px;
+}
+.close-btn-container svg {
+  cursor: pointer;
+}
+
+.edit-form {
+  padding: 10px 20px;
+}
+.edit-form h2 {
+  text-align: center;
+  margin-block-end: 20px;
+}
+
+.edit-form .form-body {
+  display: flex;
+  flex-direction: column;
+}
+
+.edit-form .form-body input {
+  margin-block-end: 15px;
+  padding: 10px;
+  background-color: transparent;
+  border: none;
+  outline: none;
+  border: 1px solid #a624b7;
+  border-radius: 8px;
+  color: white;
+}
+.edit-from-error {
+  color: rgb(190, 5, 5);
+  display: none;
+}
+.pop-up-btn-container {
+  margin-block-start: 10px;
+  display: flex;
+  gap: 20px;
+}
+
+.pop-up-btn-container button {
+  width: 50%;
+  padding: 10px;
+  cursor: pointer;
+  transition: 0.2s linear;
+  font-size: 18px;
+  border:1px solid white;
+  background: transparent;
+  border-radius: 10px;
+  color: white;
+  
+  
+}
+
+.pop-up-btn-container button:hover {
+  background-color: #9608a0;
+  color: #d7e1ff;
+}
+.add-movie-form input{
+    padding:15px;
+    background-color:transparent;
+    outline:none;
+    border-radius:8px;
+    border:1.5px solid #F9D0FE;
+    color:white;
+    font-size:1rem;
+    transition: .2s linear;
+}
+.add-movie-form input:hover{
+    border-color:#a624b7;
+    box-shadow:0px 0px 10px #4A1152;
+}
+.add-movie-form input::placeholder{
+    color:lightgray
+}
+#addmovie{
+    padding:15px 20px;
+    border-radius:8px;
+    background-color:#483AA0;
+    color:white;
+    outline:none;
+    border:2px solid #483AA0;
+    font-size:1.1rem;
+    cursor: pointer;
+}
+#addmovie:hover{
+    background-color:#3c2d9a;
+}
