@@ -1,4 +1,5 @@
-![Movie Collection - Google Chrome 22-May-25 11_28_35 PM](https://github.com/user-attachments/assets/662d7557-ed9e-45ce-99e0-66f415db4b14)![Document - Google Chrome 19-Apr-25 10_53_52 PM](https://github.com/user-attachments/assets/8e78e59f-4813-4602-8130-6de179164d8b)
+
+![Document - Google Chrome 19-Apr-25 10_43_45 PM](https://github.com/user-attachments/assets/beae8c56-41f0-4248-bc69-790a7d6b7ebf)
 
 ![Movie Collection - Google Chrome 22-May-25 11_28_24 PM](https://github.com/user-attachments/assets/4d1c70a1-0560-4fc0-89f3-5b3735a2ccbe)
 
@@ -42,12 +43,10 @@ Acmegrade-Web-Dev/
 
 | Assignment       | Description               | Live Link |
 |------------------|---------------------------|-----------|
-| Assignment 1      | [Your title here]         | [https://acmegrade-web-dev-lyart.vercel.app/](#)   ![Movie Collection - Google Chrome 22-May-25 11_28_35 PM](https://github.com/user-attachments/assets/25827732-54db-48ff-9d13-8816e4b1015a)
-![Movie Collection - Google Chrome 22-May-25 11_28_24 PM](https://github.com/user-attachments/assets/4fe8ae6f-0ac4-42dd-a6e9-b34da447184a)
-|
-| Assignment 2      | Coming Soon...            |  https://acmegrade-web-dev-18qt.vercel.app/        |
-| Assignment 3      |                           |  https://acmegrade-web-dev-assign3.vercel.app/     |
-| Assignment 4      |                           |   https://acmegrade-web-dev-assign4.vercel.app/    |
+| Assignment 1      |         Card Design       | https://acmegrade-web-dev-lyart.vercel.app/         |
+| Assignment 2      |         Login Form        |  https://acmegrade-web-dev-18qt.vercel.app/        |
+| Assignment 3      |         Add & Delete      |  https://acmegrade-web-dev-assign3.vercel.app/     |
+| Assignment 4      |         CRUD operation    |   https://acmegrade-web-dev-assign4.vercel.app/    |
 ---
 
 ## 💡 Upcoming Projects
